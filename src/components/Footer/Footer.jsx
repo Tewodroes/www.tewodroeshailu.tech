@@ -62,7 +62,7 @@ const Footer = () => {
       setFormStatus("Error sending message. Please try again.");
     }
   };
-  
+
 
   const scrollUp = () => {
     window.scroll({
@@ -189,6 +189,8 @@ const Footer = () => {
           </form>
         </Slide>
       </Form>
+
+
     </Container>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
-import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
+import { FaJava } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
 import Card from "./Card";
@@ -11,33 +10,39 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          My <span className="green">skills</span>
         </h4>
         <h1>What I Do</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaJava}
+            title={"Java Developer"}
+            disc={`As a Full Stack Java Developer at MINAB IT SOLUTIONS, 
+            I developed and deployed enterprise applications using 
+            Java, AWS, Microservices, and other technologies while working 
+            collaboratively with clients and colleagues.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaJava}
+            title={"Java Backend Developer"}
+            disc={`At Supernova Technologies, 
+            I led a team of 5 developers to deliver a project on time and 
+            within budget. I mentored junior developers to increase their 
+            productivity and code quality and managed agile workflow. `}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Software Engineer"}
+            disc={`At Securicom Advanced Technologies. I Contributed to full-stack 
+            projects, designed interactive websites, provided ongoing support, 
+            and used Java, JavaScript, Spring Boot, React, Hibernate, MongoDB, 
+            Maven, etc..`}
           />
         </Slide>
       </Cards>

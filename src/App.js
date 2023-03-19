@@ -5,6 +5,7 @@ import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Service/Services";
+import Blog from "./components/Blog/Blog";
 function App() {
   return (
     <Container>
@@ -19,7 +20,8 @@ function App() {
       <Clients />
       <LightColor>
         <Footer />
-      </LightColor>
+      </LightColor> 
+      <Blog />     
     </Container>
   );
 }
