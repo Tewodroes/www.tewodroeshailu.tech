@@ -2,7 +2,7 @@
 name: Build and Deploy React App to CloudFront
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build-and-deploy:
     name: Build and Deploy
@@ -14,7 +14,7 @@ jobs:
       DIST_ID: E3EDTEM5PG6FFE
 
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Configure AWS Credentials
@@ -23,10 +23,11 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.REGION }}
-
-    # - uses: actions/setup-node@v2
-    #   with:
-    #     node-version: '14'
+    
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
 
     - name: Install Dependencies
       run: |
