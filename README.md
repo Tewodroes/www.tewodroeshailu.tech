@@ -20,7 +20,7 @@
 
 This scalable project(portfolio) uses AWS cloud infrastructure for fault-tolerance. Its development involves a React front-end and AWS services such as Lambda, DynamoDB, API Gateway, SNS, SQS, and S3. It's deployed using S3 and CloudFront after configuring the domain in Route53. The goal is to provide hands-on experience with modern cloud technologies.
 
-Developed By Tewodroes Hailu 2023.
+Developed By Tewodroes Hailu, 2023.
 
 ## Technologies 
 
