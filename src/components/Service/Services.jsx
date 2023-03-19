@@ -39,7 +39,7 @@ const Services = () => {
           <Card
             Icon={CgWebsite}
             title={"Software Engineer"}
-            disc={`At Securicom Advanced Technologies. I Contributed to full-stack 
+            disc={`At Securicom Advanced Technologies, I Contributed to full-stack 
             projects, designed interactive websites, provided ongoing support, 
             and used Java, JavaScript, Spring Boot, React, Hibernate, MongoDB, 
             Maven, etc..`}
