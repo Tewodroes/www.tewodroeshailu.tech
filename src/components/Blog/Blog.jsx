@@ -11,7 +11,7 @@ const Blog = () => {
   return (
     <Container id="blog">
       <ImageContainer>
-        <img src="https://res.cloudinary.com/dw4mmejgp/image/upload/v1679219745/ci-cd_jlo8aj.png" alt="CI/CD image" height={450}/>
+        <img src="https://res.cloudinary.com/dw4mmejgp/image/upload/v1679219745/ci-cd_jlo8aj.png" alt="CI/CD banner" height={450}/>
         <Overlay onClick={downloadPDF}>
           <BsDownload color='orange'/>
           <span>Download PDF</span>
