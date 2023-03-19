@@ -6,24 +6,24 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679257612/spring_t2vbig.webp",
+        disc : "Expertise in building microservices-based application with Spring Boot, proficient in containerization, orchestration and deploying microservices in cloud environments using cutting-edge cloud tech."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679257374/jscript_hkz7ih.png",
+        disc : "Proficiency in JavaScript has enabled me to build dynamic and responsive front-end and back-end user interfaces and applications. Using modern frameworks such as React and Angular on the front-end, and Node.js on the back-end."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679256368/jaava_fxtsws.jpg",
+        disc : "With a deep understanding of Java core, I have a solid foundation in programming concepts and can develop robust, scalable, and maintainable software applications."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679259004/mongo_rypfjr.jpg",
+        disc : "Experience with MongoDB has equipped me with the skills to design and develop high-performance, scalable, and fault-tolerant databases, using advanced features such as sharding, replication, and aggregation."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679258578/aws_hvlk0s.avif",
+        disc : "Proficiency in utilizing Amazon Web Services (AWS) to design and implement highly scalable and resilient solutions on the AWS platform. Experience with various AWS services such as EC2, S3, Lambda, RDS, and more."
     }
 ];
 
