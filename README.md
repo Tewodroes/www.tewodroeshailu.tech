@@ -14,6 +14,7 @@
 - SNS
 - SQS
 - DynamoDB
+- CI/CD
 
 ## Description
 
