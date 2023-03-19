@@ -7,6 +7,8 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhone, FiPhoneCall, FiFileText } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +50,7 @@ const Footer = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({"name": formData.name,"email": formData.email, "subject": formData.subject, "message": formData.message, "phone": formData.phone}),
+        body: JSON.stringify({"id": uuidv4(),"name": formData.name,"email": formData.email, "subject": formData.subject, "message": formData.message, "phone": formData.phone}),
       });
       if (response.ok) {
         setFormStatus("Message sent successfully!");
