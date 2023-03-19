@@ -12,7 +12,7 @@ const Services = () => {
         <h4>
           My <span className="green">skills</span>
         </h4>
-        <h1>What I Do</h1>
+        <h1>What I Did</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
@@ -32,7 +32,7 @@ const Services = () => {
             disc={`At Supernova Technologies, 
             I led a team of 5 developers to deliver a project on time and 
             within budget. I mentored junior developers to increase their 
-            productivity and code quality and managed agile workflow. `}
+            productivity and code quality and managed agile workflow.`}
           />
         </Slide>
         <Slide direction="right">
