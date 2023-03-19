@@ -48,7 +48,7 @@ const Footer = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({"name": formData.name,"email": formData.email, "subject": formData.subject, "message": formData.message}),
+        body: JSON.stringify({"name": formData.name,"email": formData.email, "subject": formData.subject, "message": formData.message, "phone": formData.phone}),
       });
       if (response.ok) {
         setFormStatus("Message sent successfully!");
