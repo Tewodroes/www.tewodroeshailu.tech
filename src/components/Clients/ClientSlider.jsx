@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ClientSlider = (props) => {
-    const {years, name, position, img_url, stars, disc} = props.item;
+    const {years, name, position, img_url, disc} = props.item;
   return (
     <Container>
         <Header>
