@@ -5,6 +5,13 @@ import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
+const scrollDown = () => {
+  window.scroll({
+    top: 2000,
+    behavior: "smooth",
+  });
+};
+
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -28,7 +35,7 @@ const ProfComponent = () => {
             achieving outstanding results in collaboration 
             with diverse technical and cross-functional teams.
           </p>
-          <button>Let's talk</button>
+          <button onClick={scrollDown}>Let's talk</button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
