@@ -37,7 +37,7 @@ const Container = styled.div`
         position: absolute;
         right: 0;
         left: 0;
-        bottom: -10rem;
+        bottom: -12rem;
         text-align: left;
         padding: 0.5rem;
         background: linear-gradient(rgba(0,0,0, 0.100), rgba(0,0,0, 0.80));
