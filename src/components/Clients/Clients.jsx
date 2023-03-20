@@ -7,6 +7,7 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
+        years:"2022 - Present",
         name : "MIU",
         position : "MSc in Computer Science",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264567/miu_naucl8.jpg",
@@ -15,6 +16,7 @@ let clients = [
         where I am focusing on mastering the latest and most innovative technologies in the field.`
     },
     {
+        years:"2015 - 2021",
         name : "AAU",
         position : "BSc in Software Engineering",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264964/aau_uietdp.png",
@@ -22,13 +24,15 @@ let clients = [
         disc : `I am BSc Software Engineering graduate from Addis Ababa University with a comprehensive understanding of software development and skills to excel.`
     },
     {
+        years:"2021 - 2022",
         name : "ALX",
         position : "12 Month Program",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679265476/alx_a5jiz4.jpg",
-        stars : 5,
+        //stars : 5,
         disc : `I took ALX, a 12-month software engineering program that provides hands-on training in software development, preparing me for a career as a software engineer.`
     },
     {
+        years:"2015 - Present",
         name : "Udemy",
         position : "Crash Courses",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679267036/udemy_y1nsbl.png",

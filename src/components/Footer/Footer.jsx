@@ -137,7 +137,7 @@ const Footer = () => {
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://tewodroes.slack.com/">
                   <BsSlack />
                 </a>
               </span>

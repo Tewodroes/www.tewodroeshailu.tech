@@ -2,18 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ClientSlider = (props) => {
-    const {name, position, img_url, stars, disc} = props.item;
+    const {years, name, position, img_url, stars, disc} = props.item;
   return (
     <Container>
         <Header>
-            <span className='quote'>2022-Present</span>
-            <div>
-                {Array(stars).fill().map((_, i) => (
-                    <span className='star' key={i}>
-                        {/* <AiOutlineStar/> */}
-                    </span>
-                ))}
-            </div>
+            <span className='quote'>{years}</span>
+            
         </Header>
         <Body>
             {disc}
@@ -45,6 +39,7 @@ const Header = styled.div`
         font-size: 1rem;
         color: #01be96;
         opacity: 0.7;
+        line-height: 2em;
     }
 
     .star{
