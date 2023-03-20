@@ -11,7 +11,6 @@ let clients = [
         name : "MIU",
         position : "MSc in Computer Science",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264567/miu_naucl8.jpg",
-        //stars : 3,
         disc : `I am currently pursuing a Master's degree in Computer Science, 
         where I am focusing on mastering the latest and most innovative technologies in the field.`
     },
@@ -20,7 +19,6 @@ let clients = [
         name : "AAU",
         position : "BSc in Software Engineering",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264964/aau_uietdp.png",
-        //stars : 4,
         disc : `I am BSc Software Engineering graduate from Addis Ababa University with a comprehensive understanding of software development and skills to excel.`
     },
     {
@@ -28,7 +26,6 @@ let clients = [
         name : "ALX",
         position : "12 Month Program",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679265476/alx_a5jiz4.jpg",
-        //stars : 5,
         disc : `I took ALX, a 12-month software engineering program that provides hands-on training in software development, preparing me for a career as a software engineer.`
     },
     {
@@ -36,7 +33,6 @@ let clients = [
         name : "Udemy",
         position : "Crash Courses",
         img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679267036/udemy_y1nsbl.png",
-        //stars : 3,
         disc : `I have completed professional courses on AWS and Java programming on Udemy, acquiring valuable skills in cloud computing and software development.`
     },
    
