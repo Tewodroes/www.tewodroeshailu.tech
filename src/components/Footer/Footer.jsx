@@ -76,7 +76,7 @@ const Footer = () => {
 
       <Profile>
         <Slide direction="left" delay={1}>
-          <h1>Portfolio</h1>
+          <h1>Contact</h1>
         </Slide>
         <div className="address">
           <Slide direction="left">

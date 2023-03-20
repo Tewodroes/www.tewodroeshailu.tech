@@ -7,37 +7,35 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "Jack Cohn",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "MIU",
+        position : "MSc in Computer Science",
+        img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264567/miu_naucl8.jpg",
+        //stars : 3,
+        disc : `I am currently pursuing a Master's degree in Computer Science, 
+        where I am focusing on mastering the latest and most innovative technologies in the field.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "AAU",
+        position : "BSc in Software Engineering",
+        img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679264964/aau_uietdp.png",
+        //stars : 4,
+        disc : `I am BSc Software Engineering graduate from Addis Ababa University with a comprehensive understanding of software development and skills to excel.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "ALX",
+        position : "12 Month Program",
+        img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679265476/alx_a5jiz4.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `I took ALX, a 12-month software engineering program that provides hands-on training in software development, preparing me for a career as a software engineer.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "Udemy",
+        position : "Crash Courses",
+        img_url : "https://res.cloudinary.com/dw4mmejgp/image/upload/v1679267036/udemy_y1nsbl.png",
+        //stars : 3,
+        disc : `I have completed professional courses on AWS and Java programming on Udemy, acquiring valuable skills in cloud computing and software development.`
     },
+   
 ]
 var settings = {
     dots: true,
@@ -83,8 +81,8 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <span className="green">Education</span>
+            <h1>where I study</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>

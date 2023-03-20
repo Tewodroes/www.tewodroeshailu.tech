@@ -8,11 +8,11 @@ const ClientSlider = (props) => {
   return (
     <Container>
         <Header>
-            <span className='quote'><IoIosQuote/></span>
+            <span className='quote'>2022-Present</span>
             <div>
                 {Array(stars).fill().map((_, i) => (
                     <span className='star' key={i}>
-                        <AiOutlineStar/>
+                        {/* <AiOutlineStar/> */}
                     </span>
                 ))}
             </div>
@@ -44,7 +44,7 @@ const Header = styled.div`
     align-items: center;
     justify-content: space-between;
     .quote{
-        font-size: 3rem;
+        font-size: 1rem;
         color: #01be96;
         opacity: 0.7;
     }
