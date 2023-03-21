@@ -10,13 +10,16 @@ const Blog = () => {
 
   return (
     <Container id="blog">
+     
       <ImageContainer>
         <img src="https://res.cloudinary.com/dw4mmejgp/image/upload/v1679219745/ci-cd_jlo8aj.png" alt="CI/CD banner" height={450}/>
-        <Overlay onClick={downloadPDF}>
+        {/* <Overlay onClick={downloadPDF}>
           <BsDownload color='orange'/>
           <span>Download PDF</span>
-        </Overlay>
+        </Overlay> */}
+        <a href='./blog.pdf' target="_blank">View</a>
       </ImageContainer>
+     
     </Container>
   );
 }
