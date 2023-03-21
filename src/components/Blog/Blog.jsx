@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 // import { BsDownload } from 'react-icons/bs';
 
-// const Blog = () => {
+ const Blog = () => {
 //   const downloadPDF = () => {
 //     // Replace the URL with the URL of your PDF file
 //     window.open('blog.pdf');
 //   }
 
- // return (
+ return (
     <Container id="blog">
      
       <ImageContainer>
@@ -21,8 +21,8 @@ import styled from 'styled-components';
       </ImageContainer>
      
     </Container>
- // );
-//}
+ );
+}
 
 const Container = styled.div`
   display: flex;
