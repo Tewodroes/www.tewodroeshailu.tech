@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BsDownload } from 'react-icons/bs';
+// import { BsDownload } from 'react-icons/bs';
 
-const Blog = () => {
-  const downloadPDF = () => {
-    // Replace the URL with the URL of your PDF file
-    window.open('blog.pdf');
-  }
+// const Blog = () => {
+//   const downloadPDF = () => {
+//     // Replace the URL with the URL of your PDF file
+//     window.open('blog.pdf');
+//   }
 
   return (
     <Container id="blog">
