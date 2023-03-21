@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
-    env:a
+    env:
       BUCKET: www.tewodroeshailu.tech
       DIST: build
       REGION: us-east-1
