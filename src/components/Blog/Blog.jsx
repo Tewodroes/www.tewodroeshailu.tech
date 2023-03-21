@@ -8,7 +8,7 @@ import styled from 'styled-components';
 //     window.open('blog.pdf');
 //   }
 
-  return (
+ // return (
     <Container id="blog">
      
       <ImageContainer>
@@ -21,7 +21,7 @@ import styled from 'styled-components';
       </ImageContainer>
      
     </Container>
-  );
+ // );
 //}
 
 const Container = styled.div`
