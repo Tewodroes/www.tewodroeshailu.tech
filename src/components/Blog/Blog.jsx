@@ -22,7 +22,7 @@ import styled from 'styled-components';
      
     </Container>
   );
-}
+//}
 
 const Container = styled.div`
   display: flex;
