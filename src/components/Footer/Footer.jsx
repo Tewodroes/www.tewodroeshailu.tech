@@ -27,7 +27,7 @@ const Footer = () => {
       [name]: value,
     });
   };
-  //
+  //Teddy
 
   const handleSubmit = async (event) => {
     event.preventDefault();
