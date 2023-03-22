@@ -15,7 +15,7 @@ const Blog = () => {
         <img src="https://res.cloudinary.com/dw4mmejgp/image/upload/v1679219745/ci-cd_jlo8aj.png" alt="CI/CD banner" height={450}/>
         <Overlay onClick={downloadPDF}>
           <BsDownload color='orange'/>
-          <span>Download PDF</span>
+          <span>Download  PDF</span>
         </Overlay>
       </ImageContainer>
       </a>
